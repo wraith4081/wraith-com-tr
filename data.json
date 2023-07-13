@@ -1,6 +1,11 @@
 {
   "projects": [
     {
+      "logo": "https://wafoen.com/favicon.png",
+      "name": "Wafoen",
+      "url": "https://wafoen.com"
+    },
+    {
       "logo": "https://ruru92.wraith.com.tr/logo512.png",
       "name": "Ruru92",
       "url": "https://ruru92.wraith.com.tr"
