@@ -27,7 +27,7 @@ export const MainProvider = ({ children }: { children: JSX.Element }) => {
     const [content, setContent] = useState(null);
 
     useEffect(() => {
-        fetch("/data.json").then(async res => {
+        fetch("https://wraith.com.tr/data.json").then(async res => {
             if (res.ok) {
                 const data = await res.json();
                 setContent(data);
