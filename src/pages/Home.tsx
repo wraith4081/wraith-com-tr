@@ -1,5 +1,6 @@
 import Feature from 'components/Feature';
 import Hero from 'components/Hero';
+import LogoClouds from 'components/LogoClouds';
 import Projects from 'components/Projects';
 import Stats from 'components/Stats';
 import Testimonials from 'components/Testimonials';
@@ -12,6 +13,7 @@ function Home() {
             <Hero />
             <Projects />
             <Testimonials />
+            <LogoClouds />
             <Stats />
             <Feature />
         </div>
