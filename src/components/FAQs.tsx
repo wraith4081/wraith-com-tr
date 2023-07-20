@@ -41,7 +41,7 @@ export default function FAQs() {
               <Disclosure>
                 <dt>
                   <Disclosure.Button
-                    className="flex justify-between items-start content-between text-left text-slate-900"
+                    className="flex justify-between items-start content-between text-left text-slate-900 dark:text-slate-100"
                     onClick={() => {
                       setActiveIndices((current) =>
                         current.includes(i) ? current.filter((index) => index !== i) : [...current, i]
@@ -75,7 +75,7 @@ export default function FAQs() {
                     {activeIndices.includes(i) && (
                       <div className='overflow-hidden transition-all'>
                         <Disclosure.Panel
-                          className='text-base leading-7 text-slate-600'
+                          className='text-base leading-7 text-slate-600 dark:text-slate-400'
                           key={`panel-${i}`}
                         >
                           {faq.answer}
