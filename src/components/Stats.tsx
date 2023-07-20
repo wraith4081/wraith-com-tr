@@ -57,7 +57,7 @@ export default function Stats() {
     }, []);
 
     return (
-        <div className="mx-auto w-full px-6 sm:px-8 flex flex-col gap-y-36">
+        <div className="mx-auto w-full px-6 sm:px-8 flex flex-col gap-y-36" id='stats'>
             <div className="mx-auto max-w-7xl w-full">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 transition-colors lg:text-4xl">500+ mutlu müşteriye katılın</h2>
@@ -65,7 +65,7 @@ export default function Stats() {
                 </div>
                 <dl className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0.5 overflow-hidden rounded-2xl text-center w-full">
                     <div className="flex flex-col bg-slate-400/5 p-8 rounded">
-                        <dt className="text-sm font-semibold leading-6 text-slate-600 dark:text-slate-400 transition-colors">Aylık Ulaşılan Sahış</dt>
+                        <dt className="text-sm font-semibold leading-6 text-slate-600 dark:text-slate-400 transition-colors">Aylık Kullanıcı</dt>
                         <dd className="-order-last text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-100 transition-colors">{data ? compactNumberFormatter(data.user) + '+' : 'N/A'}</dd>
                     </div>
                     <div className="flex flex-col bg-slate-400/5 p-8 rounded">
@@ -109,7 +109,7 @@ export default function Stats() {
                         </dl>
                     </div>
                 </div>
-                <p className='text-slate-600 dark:text-slate-400 transition-colors'>{data ? dateFormatter.format(Math.floor(((data?.lastUpdated || 0) - time) / 1000), 'second') + ' güncellendi.' : 'Veri çekilemedi.'}</p>
+                <p className='text-slate-600 dark:text-slate-400 transition-colors'>{data ? dateFormatter.format(-Math.abs(Math.floor(((data?.lastUpdated || 0) - time) / 1000)), 'second') + ' güncellendi.' : 'Veri çekilemedi.'}</p>
             </div>
         </div>
     )

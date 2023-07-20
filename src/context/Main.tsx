@@ -64,6 +64,17 @@ export const useMain = () => useContext(Context) as {
             "discord": string,
             "instagram": string,
             "twitter": string
-        }
+        },
+        "testimonials": {
+            "quote": string;
+            "name": string;
+            "username": string;
+            "image": string;
+            "big"?: true | undefined;
+        }[],
+        faq: {
+            "question": string;
+            "answer": string;
+        }[]
     };
 }

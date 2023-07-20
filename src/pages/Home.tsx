@@ -1,3 +1,4 @@
+import FAQs from 'components/FAQs';
 import Feature from 'components/Feature';
 import Hero from 'components/Hero';
 import LogoClouds from 'components/LogoClouds';
@@ -16,6 +17,7 @@ function Home() {
             <LogoClouds />
             <Stats />
             <Feature />
+            <FAQs />
         </div>
     )
 }

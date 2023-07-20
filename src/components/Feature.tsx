@@ -3,7 +3,7 @@ import { HiBolt, HiCircleStack, HiMiniSquare3Stack3D, HiQrCode, HiServerStack, H
 
 export default function Feature() {
     return (
-        <div className="text-left max-w-7xl px-6 w-full mx-auto">
+        <div className="text-left max-w-7xl px-6 w-full mx-auto" id='feature'>
             <div className="text-left max-w-2xl mx-auto">
                 <h2 className="text-base font-semibold leading-8 tracking-widest text-indigo-500 uppercase">İhtiyaçınız olan her şey</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100  sm:text-4xl">Yazılım mı? Sorun değil.</p>
@@ -41,7 +41,7 @@ export default function Feature() {
                 </div>
                 <div className="relative pl-9 max-w-full flex flex-col">
                     <dt className="whitespace-nowrap  font-semibold dark:text-slate-100 text-slate-900 mr-1 flex items-center"><HiWrenchScrewdriver className='absolute left-1 top-1 h-6 w-6 text-indigo-500' /> Sorun Giderme ve Destek.</dt>
-                    <dd className="inline">ar olan projelerinizde sorunları tespit edebilir ve düzeltebilirim. Ayrıca, proje sonrası destek sağlayarak gelecekte ortaya çıkabilecek sorunların çözümüne yardımcı olabilirim.</dd>
+                    <dd className="inline">Var olan projelerinizde sorunları tespit edebilir ve düzeltebilirim. Ayrıca, proje sonrası destek sağlayarak gelecekte ortaya çıkabilecek sorunların çözümüne yardımcı olabilirim.</dd>
                 </div>
             </dl>
         </div>
