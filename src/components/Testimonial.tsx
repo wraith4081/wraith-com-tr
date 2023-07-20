@@ -40,10 +40,10 @@ export default function Testimonial(data: TestimonialProps & (
                     </div>
                 </div>
                 {
-                    data.company instanceof Function ? (
-                        (<data.company />)
-                    ) : (
+                    typeof data.company === 'string' ? (
                         <img className="h-10 w-auto flex-none" src={data.company as string} alt="" />
+                    ) : data.company && typeof data.company !== 'string' && (
+                        <data.company />
                     )
                 }
 

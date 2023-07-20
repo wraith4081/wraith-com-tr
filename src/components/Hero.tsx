@@ -47,7 +47,7 @@ export default function Hero() {
   }
 
   return (
-    <div className='flex flex-col items-center justify-start gap-y-12 text-center max-w-full h-screen'>
+    <div className='flex flex-col items-center justify-start gap-y-12 text-center max-w-full h-screen' id='hero'>
       <div className='flex flex-col gap-y-2 h-2/3 justify-center'>
         <div className='text-center max-w-full'>
           <h1 className='text-5xl font-semibold max-w-full whitespace-pre-wrap'>
@@ -55,7 +55,7 @@ export default function Hero() {
           </h1>
         </div>
         <p className='text-slate-700 dark:text-slate-300'>
-          Lütfen daha sonra tekrar deneyin.
+          Eğer isterseniz, alta kaydırarak ön izleyebilirsiniz.
         </p>
       </div>
       <motion.button

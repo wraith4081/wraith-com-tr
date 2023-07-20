@@ -2,12 +2,7 @@ import { useMain } from 'context/Main';
 import React, { useState } from 'react'
 import classnames from 'classnames';
 
-// Define the color mask as a CSS variable
-const colorMask = {
-    '--mask-color': 'rgba(0, 0, 0, 0.5)',
-};
-
-const Cloud = ({ src, alt, isDarkMode, widthBased = false, size = 64 }: { src: string, alt: string, isDarkMode: boolean, widthBased?: boolean, size?: number }) => {
+const Cloud = ({ src, alt, widthBased = false, size = 64 }: { src: string, alt: string, isDarkMode: boolean, widthBased?: boolean, size?: number }) => {
 
     const [isHovered, setIsHovered] = useState(false);
     const colorMask = { filter: `brightness(0)`, opacity: 0.25 }; /* Adjust the color mask as needed */
