@@ -32,7 +32,7 @@
   "faq": [
     {
       "question": "Hangi teknoloji yığınlarıyla çalışıyorsunuz ve hangi dilleri ve çerçeveleri kullanarak projeleri geliştirebiliyorsunuz?",
-      "answer": "Full-stack geliştirici olarak, geniş bir teknoloji yığınına hakimim. Front-end projelerinde HTML, CSS ve JavaScript kullanarak React ve Angular gibi çerçeveleri tercih edebilirim. Back-end projelerinde ise Node.js, Python (Django ve Flask), Ruby (Ruby on Rails) gibi diller ve çerçevelerle çalışabilirim."
+      "answer": "Full-stack geliştirici olarak, geniş bir teknoloji yığınına hakimim. Front-end projelerinde HTML, CSS ve JavaScript kullanarak React, Next, Svelte, Solid, Vue ve Angular gibi çerçeveleri tercih edebilirim. Back-end projelerinde ise Node.js, NextJS, Express, NestJS, Python (Django ve Flask), Ruby (Ruby on Rails), Rust, Elixir gibi diller ve çerçevelerle çalışabilirim."
     },
     {
       "question": "Özelleştirilmiş çözümler sunma konusunda nasıl bir yaklaşım benimsiyorsunuz?",
