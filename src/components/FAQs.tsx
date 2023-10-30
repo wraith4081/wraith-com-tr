@@ -26,7 +26,7 @@ export default function FAQs() {
   }, [content])
 
   return (
-    <div className="mx-auto max-w-2xl w-full abx acj">
+    <div className="mx-auto max-w-2xl w-full px-6 acj">
       <div className="text-left max-w-2xl mx-auto">
         <h2 className="text-base font-semibold leading-8 tracking-widest text-indigo-500 uppercase">Peki ya?</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100  sm:text-4xl">Sıkca Sorulan Sorular</p>
