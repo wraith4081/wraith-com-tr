@@ -1,3 +1,4 @@
+import Calculator from 'components/Calculator';
 import FAQs from 'components/FAQs';
 import Feature from 'components/Feature';
 import Hero from 'components/Hero';
@@ -16,6 +17,7 @@ function Home() {
             <Testimonials />
             <LogoClouds />
             <Stats />
+            <Calculator />
             <Feature />
             <FAQs />
         </div>

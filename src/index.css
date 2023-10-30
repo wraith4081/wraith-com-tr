@@ -26,4 +26,22 @@
   ::-webkit-scrollbar {
     display: none;
   }
+
+  .button {
+    animation: glow 2.25s ease-in-out infinite;
+  }
+
+  @keyframes glow {
+    0% {
+      @apply text-slate-100;
+    }
+
+    66% {
+      @apply text-indigo-500 translate-y-2;
+    }
+
+    100% {
+      @apply text-slate-100;
+    }
+  }
 }
